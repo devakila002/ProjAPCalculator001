@@ -1,3 +1,4 @@
+namespace ProjCal;
 public class MathManger
 {
     public static void Main(string[] args)
@@ -13,9 +14,10 @@ public class MathManger
     {
         int n1 = 5;
         int n2 = 9;
-        int sumOfNumbers = n1 + n2 ;
+        int n3 = 7;
+        int sumOf3Numbers = n1 + n2 + n3 ;
         System.Console.Write("The Sum of two numbers is : ");
-        System.Console.WriteLine(sumOfNumbers);
+        System.Console.WriteLine(sumOf3Numbers);
     }
 
     public void Add5Numbers(int a, int b, int c, int d, int e)
