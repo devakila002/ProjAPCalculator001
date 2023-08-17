@@ -5,6 +5,8 @@ public class MathManger
         MathManger myCal = new MathManger();
         myCal.Add3Numbers();
         myCal.Add5Numbers(1,2,3,4,5);
+        int sumof7 = myCal.Add7Numbers(1,2,3,4,5);
+        
     }
 
     public void Add3Numbers()
@@ -22,6 +24,16 @@ public class MathManger
         int sumOf5Numbers = a+b+c+d+e;
         System.Console.Write("The Sum of 5 numbers is : ");
         System.Console.WriteLine(sumOf5Numbers);
+    }
+
+    public int Add7Numbers(int n1, int n2, int n3, int n4, int n5)
+    {
+        int n6 = 3;
+        int n7 = 8;
+        int sumOf7Numbers = n1+n2+n3+n4+n5+n6+n7;
+        System.Console.Write("The Sum of 7 numbers is : ");
+        System.Console.WriteLine(sumOf7Numbers);
+        return sumOf7Numbers;
     }
 
 }
